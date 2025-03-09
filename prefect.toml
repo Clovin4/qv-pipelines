@@ -1,5 +1,8 @@
 [logging]
-level = "DEBUG"
+level="INFO"
 
-[settings]
-PREFECT_API_URL = "http://127.0.0.1:4200/api"
+[server]
+api_url = "http://127.32.0.1:4200/api"
+
+[ui]
+api_url = "http://workflows.mlworkshop.space:4200/api"

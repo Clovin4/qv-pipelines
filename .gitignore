@@ -1,3 +1,6 @@
 /.python-version
 /.venv
 /uv.lock
+
+# python artifact
+__pycache__/

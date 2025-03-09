@@ -17,5 +17,6 @@ if __name__ == "__main__":
             ]
         },
         work_pool_name="my-work-pool",
-        cron="0 * * * *",  # Run every hour
+        # Run every six hours
+        cron="0 */6 * * *",
     )
